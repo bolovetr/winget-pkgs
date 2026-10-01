@@ -1,0 +1,27 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: Bolove.BoMirror
+PackageVersion: 1.4.1
+PackageLocale: tr-TR
+Publisher: Bolove
+PublisherUrl: https://www.bolove.tr
+PackageName: BoMirror
+PackageUrl: https://bolove.tr/bomirror/
+License: Ticari (lisans anahtarı gerekir)
+Copyright: Bolove
+ShortDescription: Kasadaki satış ekranını müşteriye dönük Android telefon veya tablete yansıtan müşteri ekranı ve dijital pano.
+Description: |-
+  BoMirror, bilgisayardaki satış programının ekranını müşteriye dönük eski bir Android telefon ya da tablete anlık yansıtır.
+  Ek donanım gerektirmez; USB veya WiFi ile bağlanır, karekodla eşleşir. Satış yokken logo, kampanya videosu ya da
+  saate göre değişen menü panosu gösterir. Kullanmak için lisans anahtarı gerekir.
+Moniker: bomirror
+Tags:
+- musteri-ekrani
+- kasa
+- pos
+- dijital-pano
+- menu-panosu
+- customer-display
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
