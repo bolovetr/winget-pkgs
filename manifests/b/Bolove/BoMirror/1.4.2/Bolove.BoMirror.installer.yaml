@@ -1,0 +1,22 @@
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Bolove.BoMirror
+PackageVersion: 1.4.2
+InstallerLocale: tr-TR
+InstallerType: inno
+Scope: machine
+UpgradeBehavior: install
+ProductCode: '{6B1D0C8E-4E2B-4C3B-9B8E-3F0A6C5D2E71}_is1'
+AppsAndFeaturesEntries:
+- DisplayName: BoMirror
+  Publisher: Bolove
+  DisplayVersion: 1.4.2
+  ProductCode: '{6B1D0C8E-4E2B-4C3B-9B8E-3F0A6C5D2E71}_is1'
+ElevationRequirement: elevatesSelf
+Installers:
+- Architecture: x64
+  InstallerUrl: https://bolove.tr/bomirror/?f=kurulum&v=1.4.2
+  InstallerSha256: 567B84C88F3F68B180E518A4D39F1E5A1C5D8807A9957F1F3B5F413A453264C2
+ManifestType: installer
+ManifestVersion: 1.9.0
